@@ -1,6 +1,6 @@
 {
   "atom": {
-    "install": "apm install {{name}} {{#version}}@{{version}}{{/version}}",
+    "install": "apm install {{name}}{{#version}}@{{version}}{{/version}}",
     "download": "https://www.atom.io/api/packages/{{name}}/versions/{{version}}/tarball",
     "url": "https://atom.io/packages/{{name}}"
   },
@@ -8,7 +8,7 @@
     "install": "bower install {{name}} {{#version}}#{{version}}{{/version}}"
   },
   "npm": {
-    "install": "npm install {{name}} {{#version}}@{{version}}{{/version}}",
+    "install": "npm install {{name}}{{#version}}@{{version}}{{/version}}",
     "download": "http://registry.npmjs.org/{{name}}/-/{{name}}-{{version}}.tgz",
     "url": "https://www.npmjs.com/package/{{name}}"
   },
