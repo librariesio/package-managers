@@ -1,0 +1,21 @@
+{
+  "atom": {
+    "install": "apm install {{name}} {{#version}}@{{version}}{{/version}}",
+    "download": "https://www.atom.io/api/packages/{{name}}/versions/{{version}}/tarball",
+    "url": "https://atom.io/packages/{{name}}"
+  },
+  "bower": {
+    "install": "bower install {{name}} {{#version}}#{{version}}{{/version}}"
+  },
+  "npm": {
+    "install": "npm install {{name}} {{#version}}@{{version}}{{/version}}",
+    "download": "http://registry.npmjs.org/{{name}}/-/{{name}}-{{version}}.tgz",
+    "url": "https://www.npmjs.com/package/{{name}}"
+  },
+  "rubygems": {
+    "install": "gem install {{name}} {{#version}}-v {{version}}{{/version}}",
+    "download": "https://rubygems.org/downloads/{{name}}-{{version}}.gem",
+    "url": "https://rubygems.org/gems/{{name}}{{#version}}/versions/{{version}}{{/version}}",
+    "documentation": "http://www.rubydoc.info/gems/{{name}}/{{version}}"
+  }
+}
