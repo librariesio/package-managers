@@ -4,6 +4,9 @@
     "download": "https://www.atom.io/api/packages/{{name}}/versions/{{version}}/tarball",
     "url": "https://atom.io/packages/{{name}}"
   },
+  "biicode": {
+    "url": "https://www.biicode.com/{{name}}/{{version}}"
+  },
   "bower": {
     "install": "bower install {{name}} {{#version}}#{{version}}{{/version}}"
   },
