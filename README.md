@@ -8,6 +8,8 @@ All data is stored in JSON where the key for each package manager is the name of
 
 Each attribute relates to the source of some information about a package that can be inferred from just the package manager, name of the package and optionally it's version.
 
+See [`package-managers.json`](package-managers.json) for the full data set.
+
 ## Data format
 
 ```JSON
