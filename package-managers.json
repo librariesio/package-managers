@@ -51,6 +51,10 @@
     "download": "http://hackage.haskell.org/package/{{name}}-{{version}}/{{name}}-{{version}}.tar.gz",
     "url": "http://hackage.haskell.org/package/{{name}}{{#version}}-{{version}}{{/version}}"
   },
+  "hex": {
+    "url": "https://hex.pm/packages/{{name}}/{{version}}",
+    "documentation": "http://hexdocs.pm/{{name}}/{{version}}"
+  },
   "jam": {
     "install": "jam install {{name}}{{#version}}@{{version}}{{/version}}",
     "download": "http://jamjs.org/repository/{{name}}/{{name}}-{{version}}.tar.gz",
