@@ -66,6 +66,9 @@
   "meteor": {
     "install": "meteor add {{name}}{{#version}}@={{version}}{{/version}}"
   },
+  "nimble": {
+    "install": "nimble install {{name}}{{#version}}@#{{version}}{{/version}}"
+  },
   "npm": {
     "install": "npm install {{name}}{{#version}}@{{version}}{{/version}}",
     "download": "http://registry.npmjs.org/{{name}}/-/{{name}}-{{version}}.tgz",
