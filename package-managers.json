@@ -24,6 +24,11 @@
   "cpan": {
     "url": "https://metacpan.org/release/{{name}}"
   },
+  "cran": {
+    "download": "https://cran.r-project.org/src/contrib/{{name}}_{{version}}.tar.gz"
+    "url": "http://cran.r-project.org/web/packages/{{name}}/index.html"
+    "documentation": "http://cran.r-project.org/web/packages/{{name}}/{{name}}.pdf"
+  },
   "dub": {
     "install": "dub fetch {{name}}{{#version}} --version {{version}}{{/version}}",
     "url": "http://code.dlang.org/packages/{{name}}/{{#version}}/{{version}}{{/version}}"
