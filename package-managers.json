@@ -98,4 +98,7 @@
   "sublime": {
     "url": "https://packagecontrol.io/packages/{{name}}"
   },
+  "wordpress": {
+    "url": "https://wordpress.org/plugins/{{name}}/{{version}}"
+  }
 }
