@@ -78,6 +78,9 @@
     "install": "Install-Package {{name}}{{#version}} -Version {{version}}{{/version}}",
     "url": "https://www.nuget.org/packages/{{name}}/{{version}}"
   },
+  "packagist": {
+    "url": "https://packagist.org/packages/{{name}}#{{version}}"
+  },
   "rubygems": {
     "install": "gem install {{name}} {{#version}}-v {{version}}{{/version}}",
     "download": "https://rubygems.org/downloads/{{name}}-{{version}}.gem",
