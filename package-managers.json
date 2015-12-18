@@ -14,6 +14,9 @@
     "download": "https://crates.io/api/v1/crates/{{name}}/{{version}}/download",
     "url": "https://crates.io/crates/{{name}}/{{version}}"
   },
+  "clojars": {
+    "url": "https://clojars.org/{{name}}/{{#version}}/versions/{{version}}{{/version}}"
+  },
   "dub": {
     "install": "dub fetch {{name}}{{#version}} --version {{version}}{{/version}}",
     "url": "http://code.dlang.org/packages/{{name}}/{{#version}}/{{version}}{{/version}}"
