@@ -94,7 +94,7 @@
     "download": "https://rubygems.org/downloads/{{name}}-{{version}}.gem",
     "url": "https://rubygems.org/gems/{{name}}{{#version}}/versions/{{version}}{{/version}}",
     "documentation": "http://www.rubydoc.info/gems/{{name}}/{{version}}"
-  }
+  },
   "sublime": {
     "url": "https://packagecontrol.io/packages/{{name}}"
   },
