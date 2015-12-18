@@ -17,6 +17,10 @@
   "clojars": {
     "url": "https://clojars.org/{{name}}/{{#version}}/versions/{{version}}{{/version}}"
   },
+  "cocoapods": {
+    "url": "http://cocoapods.org/pods/{{name}}",
+    "documentation": "http://cocoadocs.org/docsets/{{name}}/{{version}}"
+  },
   "dub": {
     "install": "dub fetch {{name}}{{#version}} --version {{version}}{{/version}}",
     "url": "http://code.dlang.org/packages/{{name}}/{{#version}}/{{version}}{{/version}}"
