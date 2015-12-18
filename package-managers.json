@@ -46,6 +46,11 @@
     "documentation": "http://godoc.org/{{name}}"
     "url": "http://go-search.org/view?id={{name}}"
   },
+  "hackage": {
+    "install": "cabal install {{name}}{{#version}}-{{version}}{{/version}}",
+    "download": "http://hackage.haskell.org/package/{{name}}-{{version}}/{{name}}-{{version}}.tar.gz",
+    "url": "http://hackage.haskell.org/package/{{name}}{{#version}}-{{version}}{{/version}}"
+  },
   "jam": {
     "install": "jam install {{name}}{{#version}}@{{version}}{{/version}}",
     "download": "http://jamjs.org/repository/{{name}}/{{name}}-{{version}}.tar.gz",
