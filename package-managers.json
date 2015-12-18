@@ -37,6 +37,10 @@
     "install": "elm-package install {{name}} {{version}}"
     "url": "http://package.elm-lang.org/packages/{{name}}/{{#version}}/{{version}}{{/version}}{{^version}}latest{{/version}}"
   },
+  "emacs": {
+    "download": "http://melpa.org/packages/{{name}}-{{version}}.tar"
+    "url": "http://melpa.org/#/{{name}}"
+  },
   "jam": {
     "install": "jam install {{name}}{{#version}}@{{version}}{{/version}}",
     "download": "http://jamjs.org/repository/{{name}}/{{name}}-{{version}}.tar.gz",
