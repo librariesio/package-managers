@@ -60,6 +60,9 @@
     "download": "http://jamjs.org/repository/{{name}}/{{name}}-{{version}}.tar.gz",
     "url": "http://jamjs.org/packages/#/details/{{name}}/{{version}}"
   },
+  "julia": {
+    "url": "http://pkg.julialang.org/?pkg={{name}}&ver=release"
+  },
   "npm": {
     "install": "npm install {{name}}{{#version}}@{{version}}{{/version}}",
     "download": "http://registry.npmjs.org/{{name}}/-/{{name}}-{{version}}.tgz",
