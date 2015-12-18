@@ -33,6 +33,10 @@
     "install": "dub fetch {{name}}{{#version}} --version {{version}}{{/version}}",
     "url": "http://code.dlang.org/packages/{{name}}/{{#version}}/{{version}}{{/version}}"
   },
+  "elm": {
+    "install": "elm-package install {{name}} {{version}}"
+    "url": "http://package.elm-lang.org/packages/{{name}}/{{#version}}/{{version}}{{/version}}{{^version}}latest{{/version}}"
+  },
   "jam": {
     "install": "jam install {{name}}{{#version}}@{{version}}{{/version}}",
     "download": "http://jamjs.org/repository/{{name}}/{{name}}-{{version}}.tar.gz",
