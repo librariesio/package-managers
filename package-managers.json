@@ -21,6 +21,9 @@
     "url": "http://cocoapods.org/pods/{{name}}",
     "documentation": "http://cocoadocs.org/docsets/{{name}}/{{version}}"
   },
+  "cpan": {
+    "url": "https://metacpan.org/release/{{name}}"
+  },
   "dub": {
     "install": "dub fetch {{name}}{{#version}} --version {{version}}{{/version}}",
     "url": "http://code.dlang.org/packages/{{name}}/{{#version}}/{{version}}{{/version}}"
