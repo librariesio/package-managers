@@ -85,6 +85,10 @@
     "url": "https://pub.dartlang.org/packages/{{name}}",
     "documentation": "http://www.dartdocs.org/documentation/{{name}}/{{version}}"
   },
+  "pypi": {
+    "install": "pip install {{name}}{{#version}}=={{version}}{{/version}}",
+    "url": "https://pypi.python.org/pypi/{{name}}/{{version}}"
+  },
   "rubygems": {
     "install": "gem install {{name}} {{#version}}-v {{version}}{{/version}}",
     "download": "https://rubygems.org/downloads/{{name}}-{{version}}.gem",
