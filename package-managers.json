@@ -25,8 +25,8 @@
     "url": "https://metacpan.org/release/{{name}}"
   },
   "cran": {
-    "download": "https://cran.r-project.org/src/contrib/{{name}}_{{version}}.tar.gz"
-    "url": "http://cran.r-project.org/web/packages/{{name}}/index.html"
+    "download": "https://cran.r-project.org/src/contrib/{{name}}_{{version}}.tar.gz",
+    "url": "http://cran.r-project.org/web/packages/{{name}}/index.html",
     "documentation": "http://cran.r-project.org/web/packages/{{name}}/{{name}}.pdf"
   },
   "dub": {
@@ -34,16 +34,16 @@
     "url": "http://code.dlang.org/packages/{{name}}/{{#version}}/{{version}}{{/version}}"
   },
   "elm": {
-    "install": "elm-package install {{name}} {{version}}"
+    "install": "elm-package install {{name}} {{version}}",
     "url": "http://package.elm-lang.org/packages/{{name}}/{{#version}}/{{version}}{{/version}}{{^version}}latest{{/version}}"
   },
   "emacs": {
-    "download": "http://melpa.org/packages/{{name}}-{{version}}.tar"
+    "download": "http://melpa.org/packages/{{name}}-{{version}}.tar",
     "url": "http://melpa.org/#/{{name}}"
   },
   "go": {
-    "install": "go get {{name}}"
-    "documentation": "http://godoc.org/{{name}}"
+    "install": "go get {{name}}",
+    "documentation": "http://godoc.org/{{name}}",
     "url": "http://go-search.org/view?id={{name}}"
   },
   "hackage": {
