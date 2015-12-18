@@ -41,6 +41,11 @@
     "download": "http://melpa.org/packages/{{name}}-{{version}}.tar"
     "url": "http://melpa.org/#/{{name}}"
   },
+  "go": {
+    "install": "go get {{name}}"
+    "documentation": "http://godoc.org/{{name}}"
+    "url": "http://go-search.org/view?id={{name}}"
+  },
   "jam": {
     "install": "jam install {{name}}{{#version}}@{{version}}{{/version}}",
     "download": "http://jamjs.org/repository/{{name}}/{{name}}-{{version}}.tar.gz",
