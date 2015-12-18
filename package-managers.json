@@ -74,6 +74,10 @@
     "download": "http://registry.npmjs.org/{{name}}/-/{{name}}-{{version}}.tgz",
     "url": "https://www.npmjs.com/package/{{name}}"
   },
+  "nuget": {
+    "install": "Install-Package {{name}}{{#version}} -Version {{version}}{{/version}}",
+    "url": "https://www.nuget.org/packages/{{name}}/{{version}}"
+  },
   "rubygems": {
     "install": "gem install {{name}} {{#version}}-v {{version}}{{/version}}",
     "download": "https://rubygems.org/downloads/{{name}}-{{version}}.gem",
